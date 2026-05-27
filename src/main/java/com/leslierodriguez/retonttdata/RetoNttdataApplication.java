@@ -1,0 +1,18 @@
+package com.leslierodriguez.retonttdata;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Bean;
+import org.springframework.web.client.RestTemplate;
+
+@SpringBootApplication
+public class RetoNttdataApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(RetoNttdataApplication.class, args);
+    }
+    @Bean
+    public RestTemplate restTemplate(){
+        return new RestTemplate();
+    }
+}
