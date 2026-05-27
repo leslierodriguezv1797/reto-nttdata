@@ -82,12 +82,6 @@ Ejecutar:
 ./mvnw spring-boot:run
 ```
 
-En Windows PowerShell:
-
-```powershell
-.\mvnw.cmd spring-boot:run
-```
-
 Luego se puede consultar:
 
 ```http
