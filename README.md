@@ -104,7 +104,3 @@ src/main/java/com/leslierodriguez/retonttdata
 ├── service/RandomUserServiceImpl.java
 └── RetoNttdataApplication.java
 ```
-
-## Nota de configuracion
-
-Si Maven muestra el error `No compiler is provided in this environment`, significa que `JAVA_HOME` apunta a un JRE y debe cambiarse para apuntar a un JDK compatible con Java 17.
